@@ -8,7 +8,6 @@ import Python from '../assets/Python.png';
 import C from '../assets/c.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
-import Mongo from '../assets/mongo.png';
 
 const Skills = () => {
   return (

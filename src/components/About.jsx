@@ -14,9 +14,9 @@ const About = () => {
           <div></div>
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 flex-row'>
-           <div>  <img  className='w-[150px] hover:scale-110 duration-500 rounded-'src={profile} alt ="pyhton"/> 
+           <div>  <img  className='w-[250px] hover:scale-110 duration-500 rounded-full'src={profile} alt ="profile" /> 
             </div>
-             <div className='sm: text-2xl font-bold'>
+             <div className='sm:text- text-2xl font-bold'>
               <p>Hi. I'm Prasham Jain, Nice to meet you. Please take a look around.</p>
               <p>I am passionate about building excellent software by desinging the front end part of the website that 
               the lives of those around me. I am from Indore Madhya Pradesh  </p>
