@@ -1,5 +1,7 @@
 import React from 'react'
 import certificate from '../assets/pythoncerificate.png';
+import neo from'../assets/neo.jpeg';
+import clang from'../assets/clang.jpg';
 
 const Works = () => {
   return (
@@ -11,12 +13,12 @@ const Works = () => {
           </p>
         </div>
         <div>
-          <p className='py-6'>Some of My certificates are</p>
+          <p className='py-6'>My certificates are</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
               <img  className='w-[400px] hover:scale-110 duration-500'src={certificate} alt ="pyhton"/>
-              <img  className='w-[400px] hover:scale-110 duration-500'src={certificate} alt ="pyhton"/>
-              <img  className='w-[400px] hover:scale-110 duration-500'src={certificate} alt ="pyhton"/>
+              <img  className='w-[400px] hover:scale-110 duration-500'src={neo} alt ="neo"/>
+              <img  className='w-[400px] hover:scale-110 duration-500'src={clang} alt ="c language"/>
         </div>
       </div>
     </div>
