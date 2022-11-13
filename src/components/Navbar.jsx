@@ -19,7 +19,7 @@ return (
             <button className='px-[20px] text-xl' onClick={<About/>}>About</button>
             <button className='px-[20px] text-xl'>Skills</button>
             <button className='px-[20px] text-xl'>Work</button>
-            <a href="/Contact"><button className='px-[20px] text-xl' >Contract</button></a>
+            <a href="/Contact"><button className='px-[20px] text-xl' >Contact</button></a>
     </div>  
     {/*Hamburger*/}
     <div onClick={handleClick}className = 'md:hidden z-10 color-==='>
@@ -32,7 +32,7 @@ return (
             <button className='py-6 text-4xl'>About</button>
             <button className='py-6 text-4xl'>Skills</button>
             <button className='py-6 text-4xl'>Work</button>
-            <button className='py-6 text-4xl'>Contract</button>
+            <button className='py-6 text-4xl'>Contact</button>
         </ul>
     </div>  
     {/*Social icons*/ }
