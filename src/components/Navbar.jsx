@@ -24,7 +24,7 @@ return (
         </ul>
     </div>  
     {/*Hamburger*/}
-    <div onClick={handleClick}className = 'md:hidden z-10'>
+    <div onClick={handleClick}className = 'md:hidden z-10 color-==='>
         {!nav ? <FaBars /> : <FaTimes/>}
     </div>
     {/*Mobile menu*/}
