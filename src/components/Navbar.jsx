@@ -3,7 +3,8 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram, FaFacebook} from 're
 import{HiOutlineMail} from 'react-icons/hi'
 import{BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/logo.png'
-
+import Home from "../components/Home"
+import About from "../components/About.jsx"
 
 const Navbar = () => {
     const[nav, setNav] =useState(false)
@@ -14,14 +15,12 @@ return (
             <img src ={Logo} alt="Logo Image" style={{width: '50px'}}/>
         </div>
     {/*menu*/}
-    <div >
-        <ul className='hidden md:flex class="flex space-x-5 ..."'>
-            <li>Home</li>
-            <li>About </li>
-            <li>Skills</li>
-            <li>Work</li>
-            <li>Contract</li>
-        </ul>
+    <div className=''>
+         <button className='px-[20px] text-xl' onClick={<Home/>}>Home</button>
+            <button className='px-[20px] text-xl' onClick={<About/>}>About</button>
+            <button className='px-[20px] text-xl'>Skills</button>
+            <button className='px-[20px] text-xl'>Work</button>
+            <a href="/Contact"><button className='px-[20px] text-xl' >Contract</button></a>
     </div>  
     {/*Hamburger*/}
     <div onClick={handleClick}className = 'md:hidden z-10 color-==='>
@@ -30,11 +29,11 @@ return (
     {/*Mobile menu*/}
     <div>
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-            <li className='py-6 text-4xl'>Home</li>
-            <li className='py-6 text-4xl'>About</li>
-            <li className='py-6 text-4xl'>Skills</li>
-            <li className='py-6 text-4xl'>Work</li>
-            <li className='py-6 text-4xl'>Contract</li>
+            <button className='py-6 text-4xl'>Home</button>
+            <button className='py-6 text-4xl'>About</button>
+            <button className='py-6 text-4xl'>Skills</button>
+            <button className='py-6 text-4xl'>Work</button>
+            <button className='py-6 text-4xl'>Contract</button>
         </ul>
     </div>  
     {/*Social icons*/ }
