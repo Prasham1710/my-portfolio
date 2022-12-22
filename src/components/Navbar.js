@@ -29,11 +29,11 @@ return (
     {/*Mobile menu*/}
     <div>
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-            <button className='py-6 text-4xl'>Home</button>
-            <button className='py-6 text-4xl'>About</button>
-            <button className='py-6 text-4xl'>Skills</button>
-            <button className='py-6 text-4xl'>Work</button>
-            <button className='py-6 text-4xl'>Contact</button>
+            <a href="/"><button className='py-6 text-4xl'>Home</button></a>
+           <a href ="/about"> <button className='py-6 text-4xl'>About</button></a>
+             <a href ="/skills"><button className='py-6 text-4xl'>Skills</button></a>
+           <a href ="/work"></a> <button className='py-6 text-4xl'>Work</button>
+            <a href ="/contact"> <button className='py-6 text-4xl'>Contact</button></a>
         </ul>
     </div>  
     {/*Social icons*/ }
