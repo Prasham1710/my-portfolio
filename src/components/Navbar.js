@@ -2,8 +2,10 @@ import React , {useState}from 'react';
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa';
 import{HiOutlineMail} from 'react-icons/hi'
 import Logo from '../assets/logo.png'
-import Home from "../components/Home"
-import About from "../components/About.jsx"
+import Home from "./Home"
+import About from "./About.js";
+
+
 
 const Navbar = () => {
     const[nav, setNav] =useState(false)
@@ -15,11 +17,11 @@ return (
         </div>
     {/*menu*/}
     <div className=''>
-         <button className='px-[20px] text-xl' onClick={<Home/>}>Home</button>
-            <button className='px-[20px] text-xl' onClick={<About/>}>About</button>
+            <button className='px-[20px] text-xl' >Home</button>
+            <button className='px-[20px] text-xl' ><a href="About.jsx">About</a></button>
             <button className='px-[20px] text-xl'>Skills</button>
             <button className='px-[20px] text-xl'>Work</button>
-            <a href="/Contact"><button className='px-[20px] text-xl' >Contact</button></a>
+            <button className='px-[20px] text-xl'> <a href="Contact.jsx">Contact</a></button>
     </div>  
     {/*Hamburger*/}
     <div onClick={handleClick}className = 'md:hidden z-10 color-==='>
