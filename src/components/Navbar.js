@@ -2,8 +2,7 @@ import React , {useState}from 'react';
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa';
 import{HiOutlineMail} from 'react-icons/hi'
 import Logo from '../assets/logo.png'
-import Home from "./Home"
-import About from "./About.js";
+import{Link} from 'react-router-dom'
 
 
 
@@ -17,11 +16,11 @@ return (
         </div>
     {/*menu*/}
     <div className=''>
-            <button className='px-[20px] text-xl' >Home</button>
-            <button className='px-[20px] text-xl' ><a href="About.jsx">About</a></button>
-            <button className='px-[20px] text-xl'>Skills</button>
-            <button className='px-[20px] text-xl'>Work</button>
-            <button className='px-[20px] text-xl'> <a href="Contact.jsx">Contact</a></button>
+            <a href="/"><button className='px-[20px] text-xl' >Home</button></a>
+           <a href ="/about"> <button className='px-[20px] text-xl' > About</button></a>
+             <a href ="/skills"> <button className='px-[20px] text-xl' > Skills</button></a>
+            <a href ="/work"> <button className='px-[20px] text-xl' > Work</button></a>
+           <a href ="/contact"> <button className='px-[20px] text-xl' > Contact</button></a>
     </div>  
     {/*Hamburger*/}
     <div onClick={handleClick}className = 'md:hidden z-10 color-==='>
