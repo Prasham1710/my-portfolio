@@ -8,6 +8,10 @@ import Python from '../assets/Python.png';
 import C from '../assets/c.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
+import Nodejs from '../assets/node.png';
+import MongoDb from '../assets/mongo.png'
+import AWS from '../assets/aws.png'
+import Clang from '../assets/c.png'
 
 const Skills = () => {
   return (
@@ -50,7 +54,22 @@ const Skills = () => {
                 <img  className='w-20 mx-auto'src={JavaScript} alt ="HTML icon"/>
                 <p>Javascript</p>
             </div>
-             
+             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img  className='w-20 mx-auto'src={Nodejs} alt ="HTML icon"/>
+                <p>Nodejs</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img  className='w-20 mx-auto'src={MongoDb} alt ="HTML icon"/>
+                <p>Mongodb</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img  className='w-20 mx-auto'src={AWS} alt ="HTML icon"/>
+                <p>AWS</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img  className='w-20 mx-auto'src={Clang} alt ="HTML icon"/>
+                <p>C</p>
+            </div>
         </div>
         </div>
   )
