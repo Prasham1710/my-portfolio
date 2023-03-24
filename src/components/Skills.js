@@ -5,13 +5,15 @@ import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Python from '../assets/Python.png';
-import C from '../assets/c.png';
+import Cplus from '../assets/Cplusplus.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Nodejs from '../assets/node.png';
 import MongoDb from '../assets/mongo.png'
 import AWS from '../assets/aws.png'
-import Clang from '../assets/c.png'
+import Clang from '../assets/clanguage.png'
+import Firebase from '../assets/firebase.png'
+
 
 const Skills = () => {
   return (
@@ -27,49 +29,57 @@ const Skills = () => {
                 <p>HTML</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img  className='w-20 mx-auto'src={CSS} alt ="HTML icon"/>
+                <img  className='w-20 mx-auto'src={CSS} alt ="CSS icon"/>
                 <p>CSS</p>
             </div>
              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img  className='w-20 mx-auto'src={Tailwind} alt ="HTML icon"/>
+                <img  className='w-20 mx-auto'src={Tailwind} alt ="TAILWIND icon"/>
                 <p>TAILWIND</p>
             </div>
              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img  className='w-20 mx-auto'src={ReactImg} alt ="HTML icon"/>
+                <img  className='w-20 mx-auto'src={ReactImg} alt ="REACT"/>
                 <p>REACT</p>
             </div>
-             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img  className='w-20 mx-auto'src={GitHub} alt ="HTML icon"/>
-                <p>Github</p>
-            </div>
-             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img  className='w-20 mx-auto'src={Python} alt ="HTML icon"/>
-                <p>PYTHON</p>
-            </div>
+             
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img  className='w-20 mx-auto'src={C} alt ="HTML icon"/>
-                <p>C++</p>
-            </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img  className='w-20 mx-auto'src={JavaScript} alt ="HTML icon"/>
+                <img  className='w-20 mx-auto'src={JavaScript} alt ="JAVASCRIPT"/>
                 <p>Javascript</p>
             </div>
              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img  className='w-20 mx-auto'src={Nodejs} alt ="HTML icon"/>
-                <p>Nodejs</p>
+                <img  className='w-20 mx-auto'src={Nodejs} alt ="NODEJS"/>
+                <p>NODEJS</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img  className='w-20 mx-auto'src={MongoDb} alt ="HTML icon"/>
+                <img  className='w-20 mx-auto'src={MongoDb} alt ="MONGODB"/>
                 <p>Mongodb</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img  className='w-20 mx-auto'src={AWS} alt ="HTML icon"/>
-                <p>AWS</p>
+                <img  className='w-20 mx-auto'src={Firebase} alt ="FIREBASE"/>
+                <p>FireBase</p>
+            </div>
+            
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img  className='w-20 mx-auto'src={Cplus} alt ="C++"/>
+                <p>C++</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img  className='w-20 mx-auto'src={Clang} alt ="HTML icon"/>
+                <img  className='w-20 mx-auto'src={Clang} alt ="C"/>
                 <p>C</p>
             </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img  className='w-20 mx-auto'src={GitHub} alt ="GITHUB"/>
+                <p>Github</p>
+            </div>
+             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img  className='w-20 mx-auto'src={Python} alt ="PYTHON"/>
+                <p>PYTHON</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img  className='w-20 mx-auto'src={AWS} alt ="AWS"/>
+                <p>AWS</p>
+            </div>
+            
+            
         </div>
         </div>
   )
